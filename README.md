@@ -6,4 +6,4 @@ config.EnableCors();
 public class MoviesController : ApiController
 { ... }
 
-CORS nugget -- Microsoft.AspNet.WebApi.Cors
+# CORS nugget -- Microsoft.AspNet.WebApi.Cors
