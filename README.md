@@ -10,8 +10,8 @@ public class MoviesController : ApiController
 
 # also try this in web.config: 
 inside system.webServer:
-  <httpProtocol>
-    <customHeaders>
-      <add name="Access-Control-Allow-Origin" value="*" />
-    </customHeaders>
-  </httpProtocol>
+  httpProtocol
+    customHeaders
+      add name="Access-Control-Allow-Origin" value="*" 
+    customHeaders
+  httpProtocol
